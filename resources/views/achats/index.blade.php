@@ -146,7 +146,7 @@
         <div class="stats-container">
             <div class="stat-card">
                 <h3>💰 Total des Dépenses</h3>
-                <div class="stat-value">{{ number_format($totalDepenses, 2) }} €</div>
+                <div class="stat-value">{{ number_format($totalDepenses, 2) }} Fcfa</div>
             </div>
             <div class="stat-card">
                 <h3>🏆 Produit le Plus Acheté</h3>
@@ -173,7 +173,7 @@
                     <input type="text" id="nom" name="nom" required>
                 </div>
                 <div class="form-group">
-                    <label for="prix">Prix (€)</label>
+                    <label for="prix">Prix (Fcfa)</label>
                     <input type="number" id="prix" name="prix" step="0.01" min="0" required>
                 </div>
                 <div class="form-group">
